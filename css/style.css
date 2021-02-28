@@ -68,7 +68,7 @@ body {
     flex-direction: column;
     width: 300px;
     background-color: white;
-    box-shadow: 0 15px 40px 2px hsl(185, 75%, 29%);
+    box-shadow: 0 15px 40px 3px hsl(185, 75%, 29%);
 }
 
 .header-bg {
