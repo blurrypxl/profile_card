@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+p {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(0, 93%, 62%); 
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: Kumbh Sans;
+}
+
+#bg-pattern {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#bg-pattern .bg-top {
+    position: absolute;
+    bottom: 30%;
+    right: 50%;
+}
+
+#bg-pattern .bg-bottom {
+    position: absolute;
+    top: 50%;
+    left: 46%;
+}
+
+#container {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 15px 40px 2px hsl(185, 75%, 29%);
+}
+
+.header-bg {
+    background-image: url(../images/bg-pattern-card.svg);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-bg .profile-img {
+    border: 5px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 55px;
+}
+
+.header-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    padding: 10px 0;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.header-name .name-and-age {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+.name-and-age p, .name-and-age h2 {
+    padding: 0 5px;
+}
+
+.footer-stats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    font-size: 12px;
+}
+
+.footer-stats .followers, .likes, .photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
